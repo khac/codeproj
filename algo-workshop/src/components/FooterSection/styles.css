@@ -1,0 +1,33 @@
+.footerSection {
+    height: 200px;
+    background: rgb(223,247,250,1);
+    /* background: rgb(60,146,220); */
+    /* background: linear-gradient(180deg, rgba(223,247,250,1) 0%, rgba(60,146,220,1) 100%); */
+    /* background: linear-gradient(180deg, rgba(223,247,250,1) 0%, rgba(0, 47, 99) 100%); */
+    background: linear-gradient(180deg, #d3d3dd 0%, rgba(0, 47, 99) 100%);
+    
+    width: 100%;
+    padding-top: 40px;
+    text-align: center;
+}
+
+li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul{
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
