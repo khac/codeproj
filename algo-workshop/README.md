@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+## Inspiration
+Large language models(LLMs) can explain complex computer science algorithms by leveraging their extensive training on a wide range of texts, including technical documents, research papers, tutorials, and programming resources. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What it does
+In this project the users can view an interactive blog for informative computer science articles.
+This web application leverages LLMs to generate educational articles which elaborate on computer science algorithms. And caches the response of the APIs from the LLMs. 
 
-## Available Scripts
+## How we built it
+The Web applications consists of mainly these components:
+- Deployment of the Web Application is done with Firebase
+- At first time load of the webpage default articles are displayed and user has the option to search of new articles
+- The LLM used for querying response is OpenAI's GPT 3.5 model for setting prompts and retrieving responses
+- After each search query, a request is made to the MongoDB database which serves as a cache if the article is present in the database, this response is served. This avoid the expensive call made to the LLM service.
+- If the article is not present in the database then the API call to the LLM service is made and the response is stored the database. This response is then parsed and displayed to the user
 
-In the project directory, you can run:
+## Challenges we ran into
+There were issues on steps 
 
-### `npm start`
+## Accomplishments that we're proud of
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## What we learned
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What's next for Algorithms Workshop
+Currently I have implemented generating articles in the form of text for going through different ideas related to computer science. To make this project more interesting there can be images and videos that can be generated as well. As well as code snippets for implementing different algorithms. In a way the LLMs can already generate code-snippets. For generating images and videos different models can be tried together.
