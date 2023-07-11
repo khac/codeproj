@@ -25,7 +25,10 @@ The Web applications consists of mainly these components:
 - Dynamic Content Generation, Leveraging LLMs to generate content dynamically demonstrates innovation and creativity. Implementing natural language processing techniques and integrating LLMs effectively enables the application to generate engaging and high-quality content for the blog.
 
 ## What we learned
--
+-  Integrating different technologies. It provides valuable experience in connecting MongoDB as the database, React for the frontend UI, and LLMs for content generation.
+- Data Modeling and Storage, working with MongoDB as the backend database teaches valuable lessons in data modeling and storage
+- User Experience Design, Building a blog application with React frontend allows for hands-on experience in crafting a user-friendly and visually appealing user interface
+- Continuous Learning and Adaptation, As technology evolves rapidly, implementing a blog application provides an opportunity to embrace a learning mindset. Keeping up with updates and advancements in MongoDB, React, and NLP helps in adapting the application to incorporate new features and improvements.
 
 ## What's next for Algorithms Workshop
 Currently I have implemented generating articles in the form of text for going through different ideas related to computer science. 
