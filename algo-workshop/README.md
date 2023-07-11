@@ -21,4 +21,7 @@ There were issues on steps
 ## What we learned
 
 ## What's next for Algorithms Workshop
-Currently I have implemented generating articles in the form of text for going through different ideas related to computer science. To make this project more interesting there can be images and videos that can be generated as well. As well as code snippets for implementing different algorithms. In a way the LLMs can already generate code-snippets. For generating images and videos different models can be tried together.
+Currently I have implemented generating articles in the form of text for going through different ideas related to computer science. 
+- To make this project more interesting there can be images and videos that can be generated as well.
+- As well as code snippets for implementing different algorithms. In a way the LLMs can already generate code-snippets.
+- For generating images and videos different models can be tried together.
