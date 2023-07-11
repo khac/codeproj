@@ -27,6 +27,7 @@ const SearchArticle = () => {
           <TextField
             type="text"
             fullWidth
+            autoComplete='off'
             placeholder="Enter search term"
             value={searchTerm}
             onChange={handleInputChange}
