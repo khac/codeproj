@@ -6,10 +6,12 @@ import TechnicalDetailsNoSQLDatabase from './TechnicalDetailsNoSQLDatabase.jsx';
 import SudokuBoardArticle from './SudokuBoardArticle.jsx';
 import BloomFilters from './BloomFilters.jsx';
 import MapReduce from './MapReduce.jsx';
+import SearchArticle from './SearchArticle.jsx'
 
 const LatestUpdates = () => {
     return (
         <div style={{padding:'20px', background: '#d3d3dd'}}>
+            <SearchArticle />
             <GossipProtocolsInDatabaseSystems />
             <ConsistentHashing />
             <IndexesInDatabases />
