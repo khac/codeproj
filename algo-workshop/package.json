@@ -42,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "firebase-tools": "^12.4.3",
     "react-app-rewired": "^2.2.1"
   }
 }
