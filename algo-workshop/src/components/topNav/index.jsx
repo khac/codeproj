@@ -25,12 +25,12 @@ const topNav = ({setShowAbout}) => {
                 </div>
                 <div className="more-info">
                     <div className="lcell">
-                        <a href="."     target="_blank"     rel="noopener noreferrer"> 
+                        <a href="https://www.youtube.com/@AlgorithmsWorkshop/videos"       target="_blank"   rel="noopener noreferrer"> 
                             <img src={YoutubeLogo} className="github-logo" alt="github logo" />
                         </a>
                     </div>
                     <div className="rcell">
-                        <a href="."       target="_blank"   rel="noopener noreferrer"> 
+                        <a href="https://github.com/khac/codeproj/tree/main/algo-workshop"       target="_blank"   rel="noopener noreferrer"> 
                             <img src={GithubLogo} className="github-logo" alt="github logo" />
                         </a>
                     </div>
